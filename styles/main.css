@@ -50,3 +50,28 @@
     background: #FFC725;
     
 }
+.button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    gap: 10px;
+    
+}
+.button-count {
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #F37335;
+    border-radius: 100%;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+   
+}
+.button-text{
+    color: #443737;
+    font-weight: 700;
+    font-size: 15px;
+}
