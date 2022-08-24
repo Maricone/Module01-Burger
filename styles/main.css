@@ -8,6 +8,10 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+header{
+    border-bottom: 1px solid #DEDEDE;
+
+}
 .header{
     font-family: 'Nunito Sans', sans-serif;
     display: flex;
@@ -37,6 +41,10 @@
     color: #443737;
     text-decoration: none;
 }
+.header-nav a:hover{
+     color: #FFC725;
+    
+}
 .header-nav a::after{
     content: '';
     width: 100%;
@@ -57,6 +65,7 @@
     border: none;
     padding: 0;
     gap: 10px;
+    cursor: pointer;
     
     
 }
@@ -90,6 +99,7 @@
     background-size: cover;
     padding: 142px 0;
     background-position: center center;
+    margin-bottom: 140px;
 }
 .breadcrumbs{
     padding-left: 0;
@@ -106,10 +116,19 @@
     text-decoration: none;
 
 }
+.breadcrumbs a:hover{
+    color: #FFC725;
+}
+
+
 .breadcrumbs a::before{
     content: '/';
     position: relative;
     left: -7px;
+    pointer-events: none;
+}
+.breadcrumbs a:hover::before{
+    color:#DEDEDE;
 }
 .title{
     font-weight: 700;
@@ -127,4 +146,85 @@
 
 
 }
+.banner-box{
+    
+    background-image: url(../img/banner.jpg);
+    text-align: left;
+    background-size: cover;
+    padding: 142px 0;
+    background-position: center center;
+    margin-bottom: 140px;
+
+}
+
+
+
+.banner-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    background-image: url(../img/bg1.jpg);
+    border-radius: 5px;
+    width: 170px;
+    height: 58px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E2F40;
+    margin-left: 70px;
+
+       
+}
+.banner-text{
+    color: #FAF9F9;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-right: 720px;
+    padding-left: 70px;
+    
+    
+}
+.banner-title{
+
+    font-family: 'Nunito Sans';
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 60px;
+    padding-left: 70px;
+    margin-bottom: -5px;
+
+}
+.banner h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: #F37335;
+    border-radius: 14px;
+    width: 95px;
+    height: 28px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-bottom: -35px;
+    
+    
+    
+
+}
+
+   
+
 
