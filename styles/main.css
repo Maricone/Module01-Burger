@@ -235,7 +235,7 @@ header{
     text-transform: uppercase;
     color: #1B2A49;
     margin: 34;
-
+   
 }
 .menu-select{
     font-family: 'Open Sans';
@@ -315,7 +315,55 @@ header{
     margin-top: -30px;
     
 }
+.menu2-grid-title{
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #1B2A49;
+    margin-left: 85px;
+    margin-top: 10px;
 
-   
+}
+.menu2-grid-btn{
+    width: 152px;
+    height: 38px;
+    background: #FBB731;
+    border-radius: 5px;
+    margin-left: 114px;
+    margin-top: -50px;
+    background-image: url(../img/cart-menu.svg);
+    background-repeat: no-repeat;
+    background-position: 15% center;
+
+}
+.menu2-grid-text{
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    
+
+}
+.menu2-grid-price{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #979797;
+    text-align: center;
+    margin-top: -30px;
+}
+.menu2-title h2{
+    font-size: 44px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1B2A49;
+    margin: 34;
+
+}
+
+
 
 
