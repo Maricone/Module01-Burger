@@ -153,7 +153,7 @@ header{
     background-size: cover;
     padding: 142px 0;
     background-position: center center;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
 
 }
 
@@ -166,7 +166,6 @@ header{
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-
     background-image: url(../img/bg1.jpg);
     border-radius: 5px;
     width: 170px;
@@ -223,6 +222,98 @@ header{
     
     
 
+}
+.menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-title{
+    font-size: 44px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1B2A49;
+    margin: 34;
+
+}
+.menu-select{
+    font-family: 'Open Sans';
+    border: 0.5px solid #DEDEDE;
+    padding: 10px 30px;
+    border-radius: 22px;
+    color: #443737;
+    font-size: 20px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../img/Arrow.svg);
+    background-size: 12.79px 7.75px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.menu-grid-cover{
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+
+}
+.menu-grid-cover img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 430px;
+}
+.menu-grid-btn{
+    width: 152px;
+    height: 38px;
+    background: #FBB731;
+    border-radius: 5px;
+    margin-left: 114px;
+    margin-top: -50px;
+    background-image: url(../img/cart-menu.svg);
+    background-repeat: no-repeat;
+    background-position: 15% center;
+    
+    
+    
+}
+.menu-grid-text{
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    
+    
+}
+.menu-grid-title{
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #1B2A49;
+    margin-left: 85px;
+    margin-top: 10px;
+    
+       
+}
+.menu-grid-price{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #979797;
+    text-align: center;
+    margin-top: -30px;
+    
 }
 
    
